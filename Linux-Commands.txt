@@ -1,0 +1,26 @@
+List of all Linux Commands used in Devops.
+
+cd /users/teenak/Desktop/devops - Change to a specific directory usoing a relative or absolute path
+cd                              - Returns to your users home directory from anywhere
+cd ..                           - Move up one level to the parent directory
+cd ../..                        -Move up two levels in the directory hierarchy.
+cd ~                            - Return to your user's home directory
+cd -                            - Switch back to the previous working directory
+cd /                            -change the directory to the root directory
+cd ~username                    - Chasnge to another users home directory
+pwd                             - Shows the current working directory
+ls                              - Lists all the files and directories
+ls -l                           - Lists the files with detailed information in long listing format
+mkdir                           - Creates a new directory
+rm                              - removes files or directories
+rm -r                           - removes directory
+cat                             - Displays the file content
+less                            - View large files page by page
+head                            - show first lines of a file
+tail                            - show last lines of a file 
+tail -f                         - used to monitor logs in real time
+vi                              - Open or create a file
+i insert Esc Exit insert mode :q! Exit without saving :wq Save and Exit :w save but continue editing 
+a Append after cursor h,j,k,l Move cursor left down up right
+ssh 
+
