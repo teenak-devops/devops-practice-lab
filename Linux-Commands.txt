@@ -22,5 +22,102 @@ tail -f                         - used to monitor logs in real time
 vi                              - Open or create a file
 i insert Esc Exit insert mode :q! Exit without saving :wq Save and Exit :w save but continue editing 
 a Append after cursor h,j,k,l Move cursor left down up right
-ssh 
+nano , vim - editors
+wc - count lines/words
+
+Permissions and ownership
+chmod - change permissions
+chown - change owner
+chgrp - change group
+umask - default permissions
+
+Process Management
+ps - running processes
+top/htop - real-time monitoring
+kill/kill-9 - terminate process
+pgrep - find process
+nice / renice - priority
+
+Disk & Storage
+df -h -disk space
+du -sh - folder size
+lsblk - block devices
+mount / umopunt - mount disks
+
+Networking (very important in DevOps)
+ifconfig / ip a -IP address
+ping  - test connectivity
+netstat -tulnp -open ports
+ss -socket stats
+curl - API calls
+wget -download files 
+traceroute -network path
+nslookup / dig -DNS lookup
+
+Package Management
+
+RedHat/CentOS/Amazon Linux
+yum install <pkg>
+yum update
+dnf install
+
+Ubuntu/Debian
+apt update
+apt install
+apt upgrade
+
+User Management
+useradd - create user
+usermod - modify user
+userdel -delete user
+passwd - change password
+whoami - current user
+id - user info
+
+Archiving & Compression
+tar -cvf -create archive
+tar -xvh -extract archive
+gzip / gunzip
+zip / unzip
+
+Searching and Text Processing(Very Important)
+grep - Search text
+egrep - advanced grep
+find - find files
+locate - fast search
+awk - text processing
+sed - stream editing
+cut - extract columns
+sort 
+uniq
+
+System Monitoring & Logs
+uptime - system running time
+free -m - memory usage
+vmstat - performance
+iostat - disk I/O
+journalctl - logs
+dmesg - kernal logs
+
+SSH & Remote Variables
+ssh user@host - connect to server
+scp - copyfiles remotely
+rsync - sync files(very important)
+
+Environment & Variables
+env -environment variables
+export VAR=value
+echo $var
+
+Cron Jobs(Automation)
+crontab -e -edit jobs
+crontab -l - List jobs
+
+System Control Services
+systemctl start <services>
+systemctl stop <services>
+systemctl restart <service>
+systemctl status <service>
+systemctl enable <service>
+
 
