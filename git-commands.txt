@@ -1,0 +1,19 @@
+Repository setup
+git init - Initialize a repo (new project)
+
+git clone <repo-url> -- Clone an existing repo from GitHub
+
+Branching 
+git checkout -b feature-branch -- Create a new branch
+git checkout main -- switching the branches
+git branch -- List branches
+git branch -d feature-branch --- Delete branch
+
+git status -- Check status
+git add file.txt -- Add files to staging
+git add .
+git rm file.txt Remove file
+
+git commit -m "Add a message" -- Save changes Creates a snapshot of your changes.
+git push origin main -- push to remote
+
